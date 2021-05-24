@@ -1,9 +1,9 @@
-#!/opt/lynch/python/bin/python3
 # -*- coding: UTF-8 -*-
 
-from bottle import route, run, request, response, redirect, template, TEMPLATE_PATH, HTTPResponse
-from lynch import process
 import json
+
+from bottle import route, run, request, response, redirect, template, TEMPLATE_PATH, HTTPResponse
+from yamix import process
 
 CONFIGS = {"mini.burmistrov.pw": "/opt/lynch/mini.json",
            "lynch.burmistrov.pw": "/opt/lynch/lynch.json"}
