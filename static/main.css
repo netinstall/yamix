@@ -1,0 +1,42 @@
+body {
+    padding: 10px;
+    #background-image: linear-gradient(to top, #646621, #000);
+    #background-image: url(/static/img/new_year.jpg);
+    background: #303010;
+}
+
+.tracks
+{
+    width: 500px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.shuffling
+{
+    margin-top: 100px;
+    color:#646621;
+    font-size: 60pt;
+    text-align: center;
+    animation: blinker 1s linear infinite;
+}
+
+.title
+{
+    margin-top: 22px;
+    color:#fff;
+    font-size: 30pt;
+}
+
+
+.artist
+{
+    color:grey;
+    font-size: 26pt;
+}
