@@ -2,7 +2,7 @@
 
 ### Instalation
 
-1. `mkdir -p /opt/yamix`
+1. `mkdir -p /opt/yamix; cd /opt/yamix`
 2. `git clone https://github.com/netinstall/yamix.git .`
 3.  `virtualenv .`
 4.  `/opt/yamix/bin/python /opt/yamix/setup.py install`
