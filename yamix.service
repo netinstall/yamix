@@ -7,3 +7,5 @@ Type=simple
 WorkingDirectory=/opt/yamix
 ExecStart=/opt/yamix/bin/web.py
 
+[Install]
+WantedBy=multi-user.target
