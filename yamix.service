@@ -1,5 +1,6 @@
 [Unit]
 Description=Yamix Web UI
+After=network.target
 
 [Service]
 Type=simple
