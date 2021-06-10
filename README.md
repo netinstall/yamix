@@ -41,3 +41,10 @@
 ```
 #### Retrive music_oauth_token:
 https://oauth.yandex.ru/authorize?response_type=token&client_id=23cabbbdc6cd418abb4b39c32c41195d
+
+#### Systemd:
+```
+sudo cp /opt/yamix/yamix.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable yamix.service
+```
