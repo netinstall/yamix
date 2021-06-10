@@ -1,0 +1,8 @@
+[Unit]
+Description=Yamix Web UI
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/yamix
+ExecStart=/opt/yamix/bin/web.py
+
