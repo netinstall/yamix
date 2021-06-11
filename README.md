@@ -5,7 +5,7 @@
 1. `mkdir -p /opt/yamix; cd /opt/yamix`
 2. `git clone https://github.com/netinstall/yamix.git .`
 3.  `virtualenv .`
-4.  `/opt/yamix/bin/python /opt/yamix/setup.py install`
+4.  `./bin/pip3 install git+https://github.com/netinstall/yamix.git`
 
 ### Configuring
 #### Examples:
