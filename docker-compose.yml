@@ -1,0 +1,11 @@
+---
+version: "2.1"
+services:
+  yamix:
+    image: yamix:latest
+    container_name: yamix
+    volumes:
+      - /etc/yamix:/etc/yamix
+    ports:
+      - 7071:7070
+    restart: unless-stopped
